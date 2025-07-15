@@ -37,16 +37,15 @@ function App() {
 
 <>
 <div className='bg-[#FCFAF8]'>
-
 <StartPage />
 </div>
+
 
 <div className=' w-full h-full bg-cover bg-[#F2F2F2]'>
 
   <Animation/>
 
 </div>
-
 </>
   )
 }

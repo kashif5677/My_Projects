@@ -31,7 +31,7 @@ export default function Footer() {
   }
 
   const handleclick=()=>{
-    window.location.href="mailto:mdkashifnisar5500@gmail.com"
+    window.open("mailto:mdkashifnisar5500@gmail.com")
   }
   
   return (
@@ -91,22 +91,19 @@ export default function Footer() {
 
 
 <span>
-<a   href="https://www.instagram.com/mdkashifnisar86/">
+<a   href="https://www.instagram.com/mdkashifnisar86/" target='_blank'>
 <BarAnimation text='Instagram' src="https://abhishekjha.me/insta.f788fd3b.svg"/>
 </a>
 </span>
 
 <span>
-<a href="https://www.linkedin.com/in/md-kashif-a41a431b9/">
+<a href="https://www.linkedin.com/in/md-kashif-a41a431b9/" target='_blank'>
 <BarAnimation text='Linkend' src="https://img.icons8.com/?size=39&id=ueL7DoJEirDr&format=png&color=FFFFFF"/>
 </a>
 </span>
 <span>
 <BarAnimation text="Twitter" src="https://img.icons8.com/?size=39&id=6Fsj3rv2DCmG&format=png&color=FFFFFF"/>
 </span>
-
-{/* <BarAnimation  text="Email"/> */}
-
 
 </div>
 <div className='relative flex justify-around mt-5 pt-15 w-screen space-x-200 text-[15px] text-gray-600'>

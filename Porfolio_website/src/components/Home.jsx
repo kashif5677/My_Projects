@@ -2,13 +2,7 @@ import React from 'react'
 import Card1 from './Card1'
 
 
-
 function Home() {
-
-  
-
-
-
   return (
    <>
    <div className=''>

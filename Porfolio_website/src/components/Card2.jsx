@@ -20,21 +20,23 @@ function Card2() {
         showImage=data.target
       document.querySelector('#cursor').children[showImage.dataset.index].style.opacity='100';
       document.querySelector('#cursor').children[showImage.dataset.index].style.transition='all 0.5s ease';
-      // document.querySelector('#image').children[showImage.dataset.index].style.opacity='0';
-    
-      // box.style.transform = "scale(1.1)";
-       
+
 
       });
       e.addEventListener("mouseleave",function(data){
       document.querySelector('#cursor').children[showImage.dataset.index].style.opacity='0';
-      // console.log( document.querySelector('#cursor').children[showImage.dataset.index]);
+    
   
       })
     })
   }
   cardShow()
  },[])
+
+ const githubLink=()=>{
+   window.open("https://github.com/kashif5677/My_Projects")
+   
+ }
   
   return (
     <>
@@ -50,14 +52,18 @@ function Card2() {
     
 
        <button
+       onClick={githubLink}
       className="absolute bottom-6 right-6 z-50 
                  bg-gradient-to-r from-indigo-500 to-purple-600 
                  text-white px-6 py-3 rounded-full 
                  shadow-xl hover:shadow-2xl
                  hover:scale-110 transition-all duration-300
-                 animate-bounce"
+                 animate-bounce 
+                 cursor-pointer"
     >
+
       ✨ Github
+    
     </button>
   
       <img className=' rounded-[30px] opacity-100' src="https://i.postimg.cc/vBr3tWX9/Screenshot-2025-07-06-231856-2.jpg" alt="" /> 
