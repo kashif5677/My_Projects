@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import CardShow from './Cradshow'
+import CardShow from './CardShow'
 import Myskills from './Myskills'
 
 function Card2() {
